@@ -1,0 +1,28 @@
+// import partials
+@import "functions";
+@import "variables";
+@import "resets";
+@import "utils";
+
+@import "table";
+@import "form";
+@import "toast/main";
+
+* {
+  margin: 0;
+}
+
+// media queries partials
+@import "sm";
+
+@media (min-width: 768px) {
+  @import "md";
+}
+
+@media (min-width: 992px) {
+  @import "lg";
+}
+
+@media (min-width: 1200px) {
+  @import "xl";
+}
